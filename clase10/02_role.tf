@@ -27,7 +27,7 @@ data "aws_iam_policy_document" "trust" {
     condition {
       test     = "StringEquals"
       variable = "token.actions.githubusercontent.com:sub"
-      values   = ["repo:${var.github_repo}:ref:refs/heads/develop_Correa"]
+      values   = ["repo:sebacorreacalamuchita@26768969/devops-ia-2026@1433750616:ref:refs/heads/develop_Correa"]
     }
   }
 }
