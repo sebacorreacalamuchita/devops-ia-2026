@@ -97,6 +97,8 @@ resource "aws_instance" "web" {
   EOF
 
   tags = { Name = "clase10-web" }
+
+  argumento_invalido = "esto-no-existe"
 }
 
 output "instance_id" {
